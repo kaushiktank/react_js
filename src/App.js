@@ -8,14 +8,12 @@
 // import Lifecycle from './Lifecycle'
 import './App.css';
 import Componwnt_did_update from './Componwnt_did_update'
-import Component_will_unmount from './Component_will_unmount'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Componwnt_did_update />
-        <Component_will_unmount />
         {/* <ClickEvent />
         <Lifecycle />  */}
 
