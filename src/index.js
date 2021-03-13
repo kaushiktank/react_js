@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Hooks from './Hooks'
+// import App from './App';
 // import Component_unmount from './Component_unmount'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Hooks />
+    {/* <App /> */}
     {/* <Component_unmount /> */}
   </React.StrictMode>,
   document.getElementById('root')
